@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>H E / Y A N G Y A N G</title>
+  <meta name="Author" content="Yangyang He">
+  <meta content="width=device-width,initial-scale=1" name=viewport>
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
+
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+  <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+</head>
+<body>
+
+  <div id="header">
+    <!--Puts logo into Bootstrap grid so that it properly resizes across devices-->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4" id="logo"><a href="index.html"><div id="logo-img"></div></a></div>
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4"></div>
+      </div>
+    </div>
+
+    <!-- Static navbar -->
+    <!-- HTML for the navigation bar - will collapse into a dropdown button on small screens-->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-left">
+            <li><a class="nav" href="index.html">Homepage</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+  </div> <!--end Header-->
+
+
+  <div class="container content">
+    <div class="row" id="skip"></div>
+
+    <div class="row">
+      <div class="col-sm-12">
+        <h1>Computer Animations</h1>
+        <div class="left-align">
+          <p>This page includes 7 animations made with Maya as course projects for Professor Timothy Davis's Computer Animation (CSCI 420 at William & Mary).</p>
+          <p>
+          <a href="#gemini">Gemini</a><br>
+          <a href="#mocap">Motion Capture</a><br>
+          <a href="#rgm">Rube Goldberg Machine</a><br>
+          <a href="#path">Path Animation</a><br>
+          <a href="#bounce">Bounce Animation</a><br>
+          <a href="#plane">Airplane Modeling</a><br>
+          <a href="#planet">Planet Animation</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="left-align">
+      <div class="row" id="gemini">
+        <div class="col-sm-12">
+          <h1>Gemini</h1>
+          <p>May 10, 2017</p>
+          <iframe src="https://player.vimeo.com/video/216796571" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          <p>Gemini is one of my experiment in animated shorts and the final project for this course. I want to use simplistic geometries to tell a short narrative. I employed as many Disney’s animation principles as I can and tested particle effects for the first time.</p>
+          <h2>Storyboard and Description</h2>
+          <p>She has been alone in darkness until he breaks into her life. He takes her to a new world full of adventure. Following the steps, they climb up and up. When there is no more steps, they fly into the sky. The higher they go, the brighter their body shines. Ultimately, they become the brightest stars in the sky, and people call them Gemini.</p>
+          <p>Animation elements: Anticipation, squash and stretch, staging, pose to pose.</p>
+          <p>Tools: key frame animation, path animation, lighting, particles.</p>
+          <img class="demo" src="assets/img/cs420/Gemini-Storyboard.jpg"/>
+          <h2>Screenshots</h2>
+          <img class="demo" src="assets/img/cs420/Gemini-Screenshot1.png"/>
+          <img class="demo" src="assets/img/cs420/Gemini-Screenshot2.png"/>
+          <img class="demo" src="assets/img/cs420/Gemini-Screenshot3.png"/>
+          <img class="demo" src="assets/img/cs420/Gemini-Screenshot4.png"/>
+          <p><a href="#skip">Back to top</a></p>
+        </div>
+      </div>
+
+      <div class="row" id="mocap">
+        <div class="col-sm-12">
+          <h1>Motion Capture</h1>
+          <p>April 28, 2017</p>
+          <iframe src="https://player.vimeo.com/video/215210620" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          <h2>Storyboard and description</h2>
+          <p>The character (perhaps a hero come to rescue the passengers, or maybe a terrorist trying to hijack the plane or “forcibly remove” some passenger from the plane) enters the cabin, knocks down a beverage cart, and pans his gun across the cabin.</p>
+          <h2>Screenshots</h2>
+          <p>Shaded and rendered character: wearing a green vest, yellow pants, black boots, and black gloves; Holding a black gun; Has yellow skin, brown hair and dark blue eyes (eyes use dark blue and white blinn shaders).</p>
+          <img class="demo" src="assets/img/cs420/Mocap-character.jpg"/>
+          <p>Views from three camera shots as in the storyboards (entrance row seat, front seat looking back, and back seat looking through the aisle). These screenshots uses depth of field (can tell from the blurred foreground), but the final animation does not.</p>
+          <p>Lighting: I used four point lights above the aisle to light up the whole cabin, and one spotlight to highlight the hero.</p>​
+          <img class="demo" src="assets/img/cs420/Mocap-entrance.jpg"/>
+          <img class="demo" src="assets/img/cs420/Mocap-front.jpg"/>
+          <img class="demo" src="assets/img/cs420/Mocap-backSeat.jpg"/>
+          <p><a href="#skip">Back to top</a></p>
+        </div>
+      </div>
+
+      <div class="row" id="rgm">
+        <div class="col-sm-12">
+          <h1>Rube Goldberg Machine</h1>
+          <p>April 28, 2017</p>
+          <iframe src="https://player.vimeo.com/video/211762863" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          <p><strong>Update:</strong> I had to change the hole on the table to a cylinder gate, because Maya boolean operation on the rigid bodies does not perform as I expected.<p>
+          <h2>Storyboard and description</h2>
+          <p>+ A ball rolls down along some tracks, and hits a series of dominos.</p>
+          <p>+ A stick on the wheels is hit and hit two other cards.</p>
+          <p>+ The taller card falls on a seesaw and bounces up a ball on the other end.</p>
+          <p>+ The ball falls into a pipe and rolls towards a hole on the table.</p>
+          <img class="demo" src="assets/img/cs420/RGM-storyboard.jpg"/>
+          <h2>Machine elements</h2>
+          <p>Tracks where the ball rolls down.</p>
+          <img class="demo" src="assets/img/cs420/RGM-screenshot-1.png"/>
+          <p>Dominos</p>
+          <img class="demo" src="assets/img/cs420/RGM-screenshot-2.png"/>
+          <p>Wheels and stick</p>
+          <img class="demo" src="assets/img/cs420/RGM-screenshot-3.png"/>
+          <p>A seesaw and a pipe</p>
+          <img class="demo" src="assets/img/cs420/RGM-screenshot-4.png"/>
+          <p><a href="#skip">Back to top</a></p>
+        </div>
+      </div>
+
+      <div class="row" id="path">
+        <div class="col-sm-12">
+          <h1>Path Animation</h1>
+          <p>March 22, 2017</p>
+          <iframe src="https://player.vimeo.com/video/209653252" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          <iframe src="https://player.vimeo.com/video/209653245" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          <h2>Storyboard and description</h2>
+          <p>My scene is set on a platform super high in the sky. The unicycle accelerates while it is turning around on the platform. It runs beyond the platform and falls to the ground.</p>
+          <img class="demo" src="assets/img/cs420/Path-Storyboard.jpg"/>
+          <h2>Animation principles</h2>
+          <p>Squash and stretch: the unicycle squashes and stretches before and when it falls.</p>
+          <img class="demo" src="assets/img/cs420/Path-SquashAndStretch.png"/>
+          <p>Anticipation: there are anticipations before the unicycle starts moving, and before it falls.</p>
+          <img class="demo" src="assets/img/cs420/Path-Anticipation.png"/>
+          <p>Follow through and overlapping action: the unicycle’s seat was left behind the wheel while it is accelerating, and continues to move forward when the wheel stops.</p>
+          <img class="demo" src="assets/img/cs420/Path-FollowThrough.png"/>
+          <img class="demo" src="assets/img/cs420/Path-AnticipationAndFollowThrough.png"/>
+          <p><a href="#skip">Back to top</a></p>
+        </div>
+      </div>
+
+      <div class="row" id="bounce">
+        <div class="col-sm-12">
+          <h1>Bounce Animation</h1>
+          <p>March 6, 2017</p>
+          <iframe src="https://player.vimeo.com/video/207221748" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          <h2>Description</h2>
+          <p>This is an animation of a Ping Pong ball. The idea comes from Taiwan singer Jay Chou’s MV “Class 3-2”, in which the opening scene is some school kids playing ping pong ball. I also used the sound from that scene and tried to match the sound with my animation. The original MV is at https://www.youtube.com/watch?v=xJD3hFIm0go.</p>
+          <h2>Animation principles</h2>
+          <img class="demo" src="assets/img/cs420/Bounce-screenshot.jpg"/>
+          <p>Pose to pose: I used pose to pose in creating this animation. I created keyframes in which the ball is at the leftmost and rightist positions first and then progressed towards the intermediate frames.</p>
+          <p>Arc: The ball and the paddles are moving on arcs.</p>
+          <p>Anticipation: the paddles are moving back and forward, indicating that it’s going to hit the ball.</p>
+          <h2>Reference</h2>
+          <p>The texture image of the ping pong table is from Shutterstock: https://cdn.shutterstock.com/shutterstock/videos/14597038/thumb/1.jpg</p>
+          <p><a href="#skip">Back to top</a></p>
+        </div>
+      </div>
+
+      <div class="row" id="plane">
+        <div class="col-sm-12">
+          <h1>Airplane Modeling</h1>
+          <p>February 22, 2017</p>
+          <h2>Reference image</h2>
+          <img class="demo" src="assets/img/cs420/Plane-reference.jpg"/>
+          <p>http://www.aviastar.org/pictures/canada/bombardier_crj-900.gif</p>
+          <h2>Description</h2>
+          <p>I started with a cylinder as the main body, using extrusion and manipulating the vertices to create wings and fin. The two engines are separate cylinders.</p>
+          <p>Wireframe images for smoothed model:</p>
+          <img class="demo" src="assets/img/cs420/Plane-screenshot.png"/>
+          <p>Shaded images before smoothing:</p>
+          <img class="demo" src="assets/img/cs420/Plane-front.jpg"/>
+          <img class="demo" src="assets/img/cs420/Plane-side.jpg"/>
+          <img class="demo" src="assets/img/cs420/Plane-persp.jpg"/>
+          <img class="demo" src="assets/img/cs420/Plane-top.jpg"/>
+          <p>Shaded image after smoothing:</p>
+          <img class="demo" src="assets/img/cs420/Plane-smooth-front.jpg"/>
+          <img class="demo" src="assets/img/cs420/Plane-smooth-side.jpg"/>
+          <img class="demo" src="assets/img/cs420/Plane-smooth-persp.jpg"/>
+          <img class="demo" src="assets/img/cs420/Plane-smooth-top.jpg"/>
+          <h2>Animations</h2>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/y8DCmdq2Jqc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/MLq0jkydaBI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <p><a href="#skip">Back to top</a></p>
+        </div>
+      </div>
+
+      <div class="row" id="planet">
+        <div class="col-sm-12">
+          <h1>Planet Animation</h1>
+          <p>February 8, 2017</p>
+          <h2>Basic version</h2>
+          <p>This was done following the tutorial on the textbook.</p>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/aLGRXkGVtl4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <h2>Second Animation</h2>
+          <p>I added a point light at the origin, and added a glow for the sun.</p>
+          <p>I made the planets to start at different locations so that their orbits are not on the same level.</p>
+          <p>REVISED: Added ambient light and raised the intensity of the point light so that the system looks brighter.</p>
+          <img class="demo" src="assets/img/cs420/Planet-Redo.jpg"/>
+          <p>I made Venus to rotate clockwise, instead of counter-clockwise.</p>
+          <img class="demo" src="assets/img/cs420/Planet-Venus.jpg"/>
+          <p>I changed the Jupiter’s shade color to pink, which is more realistic, and added more moons of different sizes on different orbits to it.</p>
+          <p>REVISED: I made the torus of Saturn 50% transparent.</p>
+          <img class="demo" src="assets/img/cs420/Planet-Jupiter.jpg"/>
+          <h2>Animations</h2>
+          <p>REVISED: I added a camera that moves from far side towards the earth, which can be seen from the playblast video.</p>
+          <p>Original Rendered movie: </p>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/7XH6poeUsh4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <p>REVISED: I am still having touble with batch renderer on macOS Sierra, so here is the revised playblast video is here: </p>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/LcYvtfcoHVk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <p><a href="#skip">Back to top</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" id="connect">
+      <div class="col-sm-12">
+        <a href="https://github.com/hyy369/"><img class="connect-logo" src="assets/img/github-logo.png"/></a>
+        <a href="https://www.linkedin.com/in/hyy369/"><img class="connect-logo" src="assets/img/linkedin-logo.png"/></a>
+        <a href="https://vimeo.com/user63798364"><img class="connect-logo" src="assets/img/vimeo-logo.png"/></a>
+        <p><a href="#skip">Back to top</a></p>
+      </div>
+    </div>
+</body>
+</html>
