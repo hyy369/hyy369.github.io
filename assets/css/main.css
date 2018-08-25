@@ -76,6 +76,14 @@ img.connect-logo {
   height: 44px;
 }
 
+img.demo {
+	width: auto;
+}
+
+img.cs427 {
+	max-width: 256px;
+}
+
 span.project-description {
   color: #555;
   line-height: 100%;
@@ -120,6 +128,7 @@ div.jumbotron {
 	padding-top: 20%;
 	padding-bottom: 20%;
 	color: white;
+	margin-bottom: 0;
 }
 
 div.navbar {
