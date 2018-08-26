@@ -13,8 +13,11 @@
 
   <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
   <script src="https://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+  <script src="assets/javascript/blink.js"></script>
 </head>
-<body>
+
+
+<body onload="blink()">
 
   <div id="header">
     <!--Puts logo into Bootstrap grid so that it properly resizes across devices-->
@@ -53,8 +56,19 @@
 
   <div class="jumbotron jumbotron-fluid" id="middle">
       <div class="container">
-        <h1 class="display-3">H E / Y A N G Y A N G</h1>
-        <h3 class="display-3">Computer graphics researcher and artist</p>
+        <h1 class="display-3">
+          <span id="s1">H</span>
+          <span id="s2">E</span>
+          <span id="s3">/</span>
+          <span id="s4">Y</span>
+          <span id="s5">A</span>
+          <span id="s6">N</span>
+          <span id="s7">G</span>
+          <span id="s8">Y</span>
+          <span id="s9">A</span>
+          <span id="s10">N</span>
+          <span id="s11">G</span></h1>
+        <h3 class="display-3" id="subtitle">Computer graphics researcher and artist</p>
     </div>
   </div>
 
