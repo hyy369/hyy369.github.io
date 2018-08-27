@@ -145,6 +145,10 @@ div.navbar {
 
 #avatar {
 	border-radius: 50%;
+	border-color: #aaa;
+	border-style: solid;
+	border-width: thin;
+	padding: 3px;
 	width: 128px;
 	visibility: visible;
 }
