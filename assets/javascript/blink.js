@@ -23,17 +23,17 @@ function blink(){
     fadeIn('s10');
     fadeIn('s11');
     fadeIn('subtitle');
-  }, 1100);
+  }, 1560);
 }
 
 function blinkElement(ele, seq) {
    var f = document.getElementById(ele);
    setTimeout(function() {
       f.style.visibility = 'visible';
-   }, 80 + seq * 80);
+   }, 120 + seq * 120);
    setTimeout(function() {
       f.style.visibility = 'hidden';
-   }, 160 + seq * 80);
+   }, 240 + seq * 120);
 }
 
 function fadeIn(e) {
